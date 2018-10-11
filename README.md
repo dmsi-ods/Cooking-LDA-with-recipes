@@ -1,16 +1,14 @@
-# Data Visualization
+# Cooking LDA With Recipes
 ## Description
-Inspired with the assignment from MIPT machine learning course.
-
-Data visualization is the first step in solving virtually any data analysis task, in particular, when participating in a competition. Visualization helps to decide which data preprocessing should be carried out, which methods are best, and which features to add. In this notebook, we will work with this [kaggle-competition](https://www.kaggle.com/c/prudential-life-insurance-assessment), which ended in the winter of 2016. 
-
-__Competition task:__ using person characteristics and his application for medical insurance to predict the degree of risk of this insurance.
+In the thematic modeling, it is assumed that the order of words in the document is not important for determining the subject (“bag of words” hypothesis). We will work with a somewhat non-standard for thematic modeling collection, which can be called the “bag of ingredients”, because it consists of recipes from different cuisines. Thematic models are looking for words that are often found together in documents and make up topics. We will try to apply this idea to recipes and find culinary “themes”. This collection is good because it doesn't require preprocessing. In addition, it illustrates the principle of thematic models quite clearly.
 
 __What are we going to do:__
 * view data;
-* try some data visualization methods;
-* analyze graphs and try to draw conclusions that are useful for the next stages of solving the problem.
+* build lda models;
+* experiment with model parameters and analyze results;
+* find culinary "themes";
+* generate the unique recipe :)
 
 ## Description of folders
-* **data**: contains data from competition
-* **model**: contains notebook with analysis
+* **data**: contains recipe descriptions;
+* **model**: contains notebook with analysis.
